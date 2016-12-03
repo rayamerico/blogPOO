@@ -64,15 +64,15 @@
 		<div class="cabecera">
 			<h1>CREAR BLOG</h1>
 		</div>
-		<form action="../controlador/Transacciones.php" method="POST" name="form1">
+		<form action="../controlador/Transacciones.php" method="POST" enctype="multipart/form-data" name="form1">
 			<label>Título</label> <input type="text" name="txt_titulo">
 			<div class="comentario">
 				<span>Comentarios</span><textarea rows="10" cols="50" name="txt_comentario"></textarea>
 			</div>
 
 			<p>Seleccione un imagen con tamaño inferior a 2MB</p>
-
-			<input type="file" name="file_imagen">	<hr style="margin: 30px">
+			<input type="hidden" name="MAX_TAM" value="2097152">
+			<input type="file" name="file_imagen" id="imagen">	<hr style="margin: 30px">
 
 			<input type="submit" name="bt_submit">
 

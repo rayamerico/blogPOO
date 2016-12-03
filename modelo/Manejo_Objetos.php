@@ -1,6 +1,6 @@
 <?php 
 
-	include("Objeto_Blog.php");
+	include_once("Objeto_Blog.php");
 
 	class Manejo_Objetos{
 
