@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Mi primer blog</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<style type="text/css">
 
 		body{
