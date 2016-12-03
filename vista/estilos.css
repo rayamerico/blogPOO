@@ -1,0 +1,52 @@
+		body{
+			background-color: rgba(20%,50%,16%,.4); 
+		}
+		
+		span,label{
+			margin-top: 50px;
+			padding: 5px;
+			color: #444;
+			position: absolute;
+			font-size: 1em;
+
+		}
+		label{
+			margin-top: 0px;
+		}
+		textarea,input{
+			margin-left: 140px;
+			font-size: 1.2em;
+		}
+
+		.comentario{
+			position: relative;
+			margin: 4px 0px 4px 0px;
+			font-family: Arial, verdana, sans-serif;
+			
+		}
+		.principal{
+			padding: 4px;
+			width: 800px;
+			background-color: rgba(200,200,100,.2);
+			margin:auto;
+			font-family: verdana, sans-serif;
+			font-weight: bold;
+			border-radius: 4px;
+			padding-bottom: 20px;
+		}
+		h1{
+			text-align: center;
+			text-shadow: 4px 4px 2px transparent;
+			color: grey;
+		}
+		h5{
+			text-align: center;
+		}
+		.cabecera{
+			height: 100px;
+			background-color: rgba(200,200,100,.8); 
+			box-shadow: 4px 4px 4px grey;
+			margin-bottom: 30px;
+			padding-top: 30px;
+			border-radius: 10px;
+		}
