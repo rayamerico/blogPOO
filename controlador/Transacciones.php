@@ -7,8 +7,6 @@
 
 	include("../modelo/Manejo_Objetos.php");
 
-	echo $_FILES['file_imagen']['name'] . "<br>";
-
 	try {
 		
 		$miconexion = new PDO('mysql:host=localhost; dbname=bbddblog','root','');
