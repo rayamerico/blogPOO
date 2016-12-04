@@ -1,13 +1,14 @@
 		body{
-			background-color: rgba(20%,50%,16%,.4); 
+			background-color: rgba(40%,50%,30%,.8); 
 		}
 		
 		span,label{
 			margin-top: 50px;
 			padding: 5px;
-			color: #444;
+			color: #000;
 			position: absolute;
 			font-size: 1em;
+			font-weight: bold;
 
 		}
 		label{
@@ -27,7 +28,7 @@
 		.principal{
 			padding: 4px;
 			width: 800px;
-			background-color: rgba(200,200,100,.2);
+			background-color: rgba(250,100,100,.1);
 			margin:auto;
 			font-family: verdana, sans-serif;
 			font-weight: bold;

@@ -11,9 +11,9 @@
 			<h1>CREAR BLOG</h1>
 		</div>
 		<form action="../controlador/Transacciones.php" method="POST" enctype="multipart/form-data" name="form1">
-			<label>Título</label> <input type="text" name="txt_titulo">
+			<label>TÍTULO</label> <input type="text" name="txt_titulo">
 			<div class="comentario">
-				<span>Comentarios</span><textarea rows="10" cols="50" name="txt_comentario"></textarea>
+				<span>COMENTARIOS</span><textarea rows="10" cols="50" name="txt_comentario"></textarea>
 			</div>
 
 			<p>Seleccione un imagen con tamaño inferior a 2MB</p>
